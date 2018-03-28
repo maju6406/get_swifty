@@ -2,7 +2,7 @@
 
 import Foundation 
 class HelloWorld { 
-    # Swift 2+ code
+    // Swift 2+ code
     func print() { 
         Swift.print("Hello world!") 
     } 
