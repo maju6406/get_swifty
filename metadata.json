@@ -2,10 +2,11 @@
     "name": "beersy-get_swifty",
     "version": "0.1.0",
     "author": "Abir Majumdar",
-    "summary": "",
+    "summary": "Simple proof of concept of a Puppet Task written in Swift.",
     "license": "Apache-2.0",
-    "source": "",
-    "description": "Simple proof of concept of a Puppet Task written in Swift.",
+    "source": "https://github.com/maju6406/get_swifty",
+    "project_page": "https://github.com/maju6406/get_swifty",
+    "issues_url": "https://github.com/maju6406/get_swifty/issues",
     "dependencies": [
 
     ],
