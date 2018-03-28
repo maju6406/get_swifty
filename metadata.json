@@ -1,0 +1,25 @@
+{
+    "name": "beersy-get_swifty",
+    "version": "0.1.0",
+    "author": "Abir Majumdar",
+    "summary": "",
+    "license": "Apache-2.0",
+    "source": "",
+    "description": "Simple proof of concept of a Puppet Task written in Swift.",
+    "dependencies": [
+
+    ],
+    "operatingsystem_support": [{
+        "operatingsystem": "Darwin",
+        "operatingsystemrelease": [
+            "15"
+        ]
+    }],
+    "requirements": [{
+        "name": "puppet",
+        "version_requirement": ">= 4.7.0 < 6.0.0"
+    }],
+    "pdk-version": "1.4.1",
+    "template-url": "file:///opt/puppetlabs/pdk/share/cache/pdk-templates.git",
+    "template-ref": "1.4.1-0-g52adbbb"
+}
