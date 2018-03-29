@@ -2,9 +2,17 @@
 
 import Foundation 
 class HelloWorld { 
-    // Swift 2+ code
+    // Swift 3+ code
     func print() { 
-        Swift.print("Hello world!") 
+        let jsonObject = ["Hello": "World!"]
+        do {
+            let jsonData = try JSONSerialization.data(withJSONObject: jsonObject, options: .prettyPrinted)
+            let jsonString = NSString(data: jsonData as Data, encoding: String.Encoding.utf8.rawValue) as! String
+            Swift.print(jsonString)                                    
+            
+        } catch _ {
+            Swift.print ("Hm... something bad happened.")
+        }
     } 
 } 
 

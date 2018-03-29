@@ -1,6 +1,6 @@
 {
     "name": "beersy-get_swifty",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "author": "Abir Majumdar",
     "summary": "Simple proof of concept of a Puppet Task written in Swift.",
     "license": "Apache-2.0",
